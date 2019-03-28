@@ -40,10 +40,10 @@ The present work aims to generate a hypothesis regarding "why do subjects with A
 Methods: In the current study, we performed metabolite profiling of plasma samples derived from 773 subjects of three ethnic groups (Dutch with European, Ghanaian and African Surinamese background). 
 We performed Bayesian lognormal regression analyses to assess associations between HbA1c and circulating metabolites. 
 
-Results: We showed that subjects with African Surinamese and Ghanaian background had similar associations of HbA1c with circulating amino acids and triglyceride-rich lipoproteins as subjects with European background. 
-But subjects with Ghanaian and African Surinamese background had different associations of HbA1c with acetoacetate, small LDL particle and small HDL particle concentrations, compared to the subjects with European background.
+Results: Here we show that subjects with African Surinamese and Ghanaian background had similar associations of HbA1c with circulating amino acids and triglyceride-rich lipoproteins as subjects with European background. 
+In contrast, subjects with Ghanaian and African Surinamese background had different associations of HbA1c with acetoacetate, small LDL particle and small HDL particle concentrations, compared to the subjects with European background.
 
-Conclusions: Based on the observations, we hypothesize that the excess burden of T2DM in subjects with African background may be due to impaired cholesterol efflux capacity and abnormal cholesterol uptake. 
+Conclusions: Based on the observations, we hypothesize that the excess burden of T2DM in subjects with African background may be due to impaired cholesterol efflux capacity or abnormal cholesterol uptake. 
 
 Keywords: metabolomics, diabetes mellitus, ethnicity, Bayesian, association
 
@@ -70,12 +70,10 @@ Accumulation of cholesterol in pancreatic $\beta$ cells leads to impairment of g
 
 The present work aimed to generate a hypothesis regarding "why do subjects with African background have excess burden of T2DM?". 
 As an initial step, we investigated whether the relationship between circulating metabolites and glucose tolerance varies depending on ethnicity. 
-Regarding circulating metabolites, we focused on amino acids, ketone bodies and lipoproteins, same as other studies on glycemia [@Stancakova2012; @Wurtz:2012aa; @Mahendran2013; @Fizelova:2015aa]. 
+Regarding circulating metabolites, we focused on amino acids, ketone bodies and lipoproteins, similar to what has been reported in other studies on glycemia [@Stancakova2012; @Wurtz:2012aa; @Mahendran2013; @Fizelova:2015aa]. 
 In this study we used the hemoglobin A1C (HbA1c) level as the surrogate of glucose tolerance, since HbA1c is an index of chronic glycemia and a predictor of T2DM [@Nathan:1984aa; @Diabetes-Prevention-Program-Research-Group:2015aa]. 
-Regarding ethnicity, we focused on Dutch with European, Ghanaian and African Surinamese background. 
-
-In the rest part of manuscript, we will describe associations between HbA1c with amino acids, ketone bodies and lipoproteins in all three ethnic groups. 
-Then we will interpret the results of association analyses and give our hypothesis regarding "why do subjects with African background have excess burden of T2DM?".
+Regarding ethnicity, we focused on Dutch with European, Ghanaian and African Surinamese background and described associations between HbA1c with amino acids, ketone bodies and lipoproteins in all three ethnic groups. 
+The results of the association analyses fuel our hypothesis regarding "why do subjects with African background have an excess burden of T2DM?".
 
 # Materials and Methods
 
@@ -84,24 +82,24 @@ Then we will interpret the results of association analyses and give our hypothes
 The study population was composed of three ethnic groups in the Dutch population. 
 In particular, 217 African Surinamese and 255 Ghanaian were from the HELIUS (HEalthy Life In an Urban Setting) study [@Stronks:2013aa; @Snijder:2017aa], and 301 European Dutch were from the 300-Obesity cohort [@Kurstjens2019] from the Human Functional Genomics Project [@Netea:2016aa]. 
 
-HELIUS study is a multiethnic prospective cohort study in Amsterdam, the Netherlands. 
+HELIUS is a multiethnic prospective cohort study in Amsterdam, the Netherlands. 
 Participants of HELIUS study (18-70 years old) were randomly sampled and stratified by ethnic origin through the municipal registry of Amsterdam between 2011 and 2015.
-A total 25000 participants were included at baseline. 
+A total of 25000 participants were included at baseline. 
 In this study, 252 subjects (99 with Ghanaian background and 153 with African Surinamese background) had diabetes. 
 The other 220 (156 with Ghanaian background and 64 with African Surinamese background) had prediabetes and were randomly sampled from the corresponding ethnic groups. 
 
-All participants enrolled in the 300-Obesity cohort study had a BMI above 27 kg/m^2. 
+All participants enrolled in the 300-Obesity cohort study had a BMI above 27 $kg/m^2$. 
 The exclusion criteria include a recent cardiovascular event (myocardial infarction, transient ischemic attack, stroke in the past six months), a history of bariatric surgery or bowel resection, inflammatory bowel disease, renal dysfunction or increased bleeding tendency, and using oral or subcutaneous anticoagulant therapy or thrombocyte aggregation inhibitors (other than acetylsalicylic acid and carbasalate calcium). 
 
-In both HELIUS and 300-Obesity cohort study, multiple conditions were considered as diabetes:
-1. if a participant had glucose level above 7 mmol/L.
+In both the HELIUS and 300-Obesity cohort study, participants were considered to have diabetes if:
+1. Fasting glucose level was >7 mmol/L.
 2. if a participant was using glucose-lowering medication.
 3. if a participant self-reported to have been diagnosed with diabetes by a health care professional.
 
-The criterion for prediabetes was a participant had fasting glucose over 5 mmol/l or HbA1c above 5.7%.
+The criterion for prediabetes was fasting glucose >5 mmol/l or HbA1c above 5.7%.
 
-Both studies were complied with all relevant ethical regulations and in accordance with the Declaration of Helsinki (6th, 7th revisions), and all participants provided written informed consent.  
-HELIUS and 300-Obesity studies were approved by the Ethics Committee in Academic Medical Center (AMC) Medical and Radboud university medical center.
+Both studies complied with all relevant ethical regulations and in accordance with the Declaration of Helsinki (6th, 7th revisions), and all participants provided written informed consent.  
+HELIUS and the 300-Obesity studies were approved by the Ethics Committee in Academic Medical Center (AMC) Medical and Radboud university medical center.
 
 ## HbA1c measurement
 
@@ -122,7 +120,7 @@ The predictor variable (x) was the HbA1c concentration.
 To assess the strength of associations between HbA1c and metabolites, we ran lognormal regression because the outcome variables are positive continuous data with skewed distributions. 
 To study the dependency of ethnicity on the relationship between HbA1c and metabolic variables, we introduced ethnicity-specific intercepts and slopes into the model. 
 We also adjusted for covariates including gender, age, diabetic status and BMI (body mass index). 
-We centered and scaled HbA1c, age and BMI, so that one unit HbA1c means 10 mmol/mol, one unit age means 10 (years), and one unit BMI means 5 (kg/m^2). 
+We centered and scaled HbA1c, age and BMI, so that one unit HbA1c means 10 mmol/mol, one unit age means 10 (years), and one unit BMI means 5 $kg/m^2$. 
 Due to missing observations in both outcome and predictor variables, we applied a Bayesian lognormal regression to handle the missing data. 
 There are two types of missing values: 
 1) when the concentration of a metabolite is below the limit of detection, or 
@@ -130,17 +128,17 @@ There are two types of missing values:
 All the missing observations were assumed missing at random and treated as parameters. 
 Values were randomly drawn from a normal distribution with ethnicity-dependent mean and standard deviation. 
 Based on a previous study [@Dekker2015] the mean value and standard deviation of HbA1c is about 40 mmol/mol and 5 mmol/mol, therefore, we used $exponential(0.025)$ and $exponential(0.2)$ as prior distributions. 
-In the same study, the mean value and standard deviation of BMI is about 27 kg/m^2 and 5 $kg/m^2$, therefore, we used $exponential(0.04)$ and $exponential(0.2)$ as prior distributions.
+In the same study, the mean value and standard deviation of BMI is about 27 $kg/m^2$ and 5 $kg/m^2$, therefore, we used $exponential(0.04)$ and $exponential(0.2)$ as prior distributions.
 Regarding the missing values that were below the limit of detection, the imputed values were constrained between zero and the minimal observed value. 
-For the rest parameters, we used regularizing prior distributions and fitted the model by running Hamiltonian Markov Chain Monte Carlo in the program Stan (version 2.18.0) [@JSSv076i01]. 
+For the other parameters, we used regularizing prior distributions and fitted the model by running Hamiltonian Markov Chain Monte Carlo in the program Stan (version 2.18.0) [@JSSv076i01]. 
 We ran four Markov chains with 2000 iterations in each chain. 
 Results were presented with the posterior mean of lognormal regression coefficient with 95% credible interval (CI). 
-The lognormal regression coefficient approximates proportional differences in $y$ (metabolite concentration) due to a difference of one unit HbA1c (10 mmol/mol). 
+The lognormal regression coefficient can be interpreted as the proportional increase of the metabolite concentration as a result of a change of 10 mmol/mol HbA1c. 
 
 ## Availability of Data
 
-The metabolomics and clinical data of subjects with Ghanaian and African Surinamese background are available by submitting a proposal to the HELIUS Executive Board as outlined at http://www.heliusstudy.nl/en/researchers/ collaboration. Requests for further information and proposals can be submitted to Marieke Snijder. 
-The metabolomics and clinical data of subjects with European background are available by contacting human functional genomics project www.humanfunctionalgenomics.org. 
+The metabolomics and clinical data of subjects with Ghanaian and African Surinamese background are available by submitting a proposal to the HELIUS Executive Board as outlined at http://www.heliusstudy.nl/en/researchers/ collaboration. 
+The metabolomics and clinical data of subjects with European background are available by contacting human functional genomics project (www.humanfunctionalgenomics.org). 
 
 ## Code availability
 
@@ -170,7 +168,7 @@ Most interestingly, we observed that increasing concentrations of HbA1c were ass
 
 ## Association of HbA1c with circulating ketone bodies
 
-After circulating amino acids, ketone bodies were the second group of metabolites that we assessed their associations with HbA1c. 
+After circulating amino acids, ketone bodies were the second group of metabolites that we analyzed. 
 We observed that increasing concentrations of HbA1c were associated with decreasing concentrations of acetoacetate in prediabetic subjects with European background (males -0.29 [-0.44 -0.14], females -0.34 [-0.49 -0.18]), but not in people with African background. 
 Meanwhile, we observed that increasing concentrations of HbA1c were associated with decreasing concentrations of 3-hydroxybutyrate in prediabetic subjects with Ghanaian background (males -0.63 [-1.14 -0.129], females -0.62 [-1.14 -0.112]), but not in people with European or African Surinamese background (Fig 2). 
 
@@ -178,7 +176,7 @@ Among diabetic subjects, we observed that increasing concentrations of HbA1c wer
 
 ## Association of HbA1c with circulating lipoproteins
 
-Fourteen lipoproteins (4 apolipoprotein A1 and 10 apolipoprotein B containing lipoproteins) were the third group of metabolites that we assessed their relationships with HbA1c. 
+Fourteen lipoproteins (4 apolipoprotein A1 and 10 apolipoprotein B containing lipoproteins) were the third group of metabolites that we analyzed for their relation with HbA1c. 
 
 ### Apolipoprotein A1 containing lipoproteins
 
@@ -196,19 +194,19 @@ Furthermore, we observed that increasing concentrations of HbA1c were associated
 Triglyceride-rich lipoproteins, ranging from extremely large to very small VLDL particles, showed similar patterns of associations with HbA1c in prediabetic subjects with European, African Surinamese and Ghanaian background. 
 In all three ethnic backgrounds, we observed that increasing concentrations of HbA1c were associated with increasing concentrations of large VLDL particles (Fig 4). 
 
-In diabetic subjects, the association magnitudes of HbA1c with triglyceride-rich lipoproteins were smaller than those in prediabetic subjects. 
+In diabetic subjects, the association of HbA1c with triglyceride-rich lipoproteins was smaller compared to prediabetic subjects. 
 We observed that increasing concentrations of extremely large VLDL remained associated with increasing of HbA1c in diabetic subjects with European background (males 0.47 [0.19 0.76], females 0.46 [0.16 0.74]) (Fig 4). 
 
 #### Cholesterol-rich lipoproteins
 
 Cholesterol-rich lipoproteins including IDL, large, medium and small LDL particles were not associated with HbA1c in prediabetic subjects with European, African Surinamese and Ghanaian background. 
-However, in diabetic subjects HbA1c tended to positively correlate with concentrations of these cholesterol-rich lipoproteins. 
+However, in diabetic, subjects HbA1c tended to positively correlate with concentrations of these cholesterol-rich lipoproteins. 
 In particular, we noticed that increasing concentrations of HbA1c were associated with increasing concentrations of small LDL particles in diabetic subjects with African Surinamese (males 0.06 [0.02 0.10], females 0.05 [0.02 0.08]) and Ghanaian (males 0.06 [0.03 0.10], females 0.05 [0.01 0.09]) background, but were not associated with small LDL particle concentrations in diabetic subjects with European background (Fig 5). 
 
 # Discussion
 
 Why do subjects with African background have excess burden of T2DM? 
-As an initial step to approach this question, we performed metabolite profiling in plasma of 773 subjects from three ethnic groups in the Dutch population (European, Ghanaian and African Surinamese background), and assessed the associations of HbA1c with metabolic profiles. 
+As an initial step to address this question, we performed metabolite profiling in plasma of 773 subjects from three ethnic groups in the Dutch population (European, Ghanaian and African Surinamese background), and assessed the associations of HbA1c with metabolic profiles. 
 
 We started our analyses with associations between HbA1c and circulating amino acids, because amino acids such as BCAAs and AAAs are robust biomarkers for prediabetes and diabetes [@Guasch-Ferre:2016aa]. 
 Similar to other studies, we observed that increasing concentrations of HbA1c were associated with increasing concentrations of BCAAs (isoleucine, leucine and valine) as well as tyrosine in prediabetic participants with European background. 
@@ -228,8 +226,8 @@ In our analysis, we observed that increasing concentrations of HbA1c were associ
 The effects of ketone bodies on glucose metabolism is dependent on the glucose level [@Mahendran2013]. 
 It was shown that elevation of circulating ketone bodies stimulated insulin secretion in men when high glucose was established [@Jenkins1970]. 
 This is in line with our observation in diabetic subjects with European background. 
-On the other hand, ketone body such as acetoacetate can also inhibit insulin secretion by suppressing expression of ABCA1 (a key player in cellular cholesterol efflux) and promoting accumulation of intracellular cholesterol [@Uehara:2002aa; @Brunham:2007aa]. 
-Our observation of positive associations between HbA1c and circulating acetoacetate in African participants may be linked to the insufficient ABCA1-mediated cholesterol efflux capacity. 
+On the other hand, ketone bodies such as acetoacetate may also inhibit insulin secretion by suppressing expression of ABCA1 (a key player in cellular cholesterol efflux) and promote accumulation of intracellular cholesterol [@Uehara:2002aa; @Brunham:2007aa]. 
+We speculate that our observation of positive associations between HbA1c and circulating acetoacetate in African participants may be linked to the insufficient ABCA1-mediated cholesterol efflux capacity. 
 
 ABCA1-mediated cholesterol efflux exports intracellular cholesterol to HDL particles. 
 Therefore, we focused on the associations of HbA1c levels and HDL particle concentrations. 
@@ -237,30 +235,31 @@ Our observation that increasing HbA1c correlated with decreasing large HDL parti
 However, in prediabetic subjects with African Surinamese (men and women) and Ghanaian (women) background, we observed that increasing concentrations of HbA1c were associated with increasing concentrations of small HDL particles. Such relationship was also observed in diabetic females with African Surinamese background. 
 Small HDL particles are the most efficient particle in ABCA1-mediated cholesterol efflux [@Du:2015aa]. 
 We hypothesized that subjects with African background might have impaired cholesterol efflux capacity to small HDL particles. 
-In order to compensate this impairment, a large number of small HDL particles were produced. 
+In order to compensate this impairment, a larger number of small HDL particles was produced. 
 Given that increasing HbA1c correlated with increasing acetoacetate in diabetic subjects with African background, we further hypothesized that the impaired ABCA1-mediated cholesterol efflux was induced by acetoacetate. 
 
-ABCA1-mediated cholesterol efflux and LDLr-mediated cholesterol uptake together determined overall accumulation of intracellular cholesterol. To answer the question if LDLr-mediated cholesterol uptake plays a role in excess burden of T2DM in subjects with African background, we assessed the associations between HbA1c and apolipoprotein B containing lipoproteins. 
+ABCA1-mediated cholesterol efflux and LDLr-mediated cholesterol uptake together determine overall accumulation of intracellular cholesterol. 
+To address the question if LDLr-mediated cholesterol uptake plays a role in excess burden of T2DM in subjects with African background, we assessed the associations between HbA1c and apolipoprotein B containing lipoproteins. 
 There are two types of apolipoprotein B containing lipoproteins, TG-rich and cholesterol-rich lipoproteins.  
 
 We first focused on the TG-rich lipoproteins that ranged from extremely large to very small VLDL particles. 
-Like what we observed in amino acids, associations of HbA1c with TG-rich lipoproteins were stronger in prediabetic subjects than in diabetic subjects, and were stronger in subjects with European background than in subjects with African backgrounds. 
-Based on the observations, we ruled out the possibility that excess burden of T2DM in subjects with African background was due to excess supply of TG-rich lipoproteins.
+Like what we observed with the amino acids, associations of HbA1c with TG-rich lipoproteins were stronger in prediabetic subjects than in diabetic subjects, and were stronger in subjects with European background than in subjects with African backgrounds. 
+Based on these observations, we ruled out the possibility that excess burden of T2DM in subjects with African background was due to excess supply of TG-rich lipoproteins.
 
 Cholesterol-rich lipoproteins included IDL, large, medium and small LDL particles. 
 We observed that increasing concentrations of HbA1c were associated with increasing concentrations of small LDL particles in diabetic subjects with African Surinamese and Ghanaian background, but were not associated with small LDL particles in diabetic subjects with European background. 
 It was shown that excess uptake of cholesterol mediated by LDL receptor leads to cholesterol accumulation in islet and beta cell dysfunction [@Kruit:2010aa].
 
-Overall, we observed increasing HbA1c were associated with more small HDL particles and more small LDL particles, indicating impaired ABCA1-mediated cholesterol efflux capacity as well as excess LDLr-mediated cholesterol accumulation. 
+Overall, we observed that an increase in HbA1c was associated with more small HDL particles and more small LDL particles in subjects with African background, indicating impaired ABCA1-mediated cholesterol efflux capacity as well as excess LDLr-mediated cholesterol accumulation. 
 These metabolic abnormalities might be linked to the excess burden of T2DM in subjects with African background.  
 Future research is needed to test our hypothesis.
 
 ## Strength and limitation
 
-A strength of this study is using Bayesian imputation to take care missing observations in both dependent and independent variables. 
+A strength of this study is the use of Bayesian imputation to take care of missing observations in both dependent and independent variables. 
 Dropping cases with missing data is the default setting used by many data analysis programs. 
 However, this is almost never appropriate because the dropped cases can bias the results. 
-The advantage of Bayesian imputation is that it does not give us one or a few imputed values but a whole posterior distribution for each missing observation.
+The advantage of Bayesian imputation is that it does not generate one or a few imputed values but a whole posterior distribution for each missing observation.
 
 One limitation of this study is that the three ethnic groups were from two different cohort studies, with different time of sampling and measurement. 
 As a consequence, we cannot directly compare metabolite variables between ethnic groups but did run association analyses within each ethnic group. 
@@ -279,14 +278,14 @@ There are no competing financial interests in relation to the work described.
 
 # Figure captions
 
-![**Fig.** 1 Regression parameter estimates between plasma amino acids and HbA1c in subjects with European, Ghanaian and African Surinamese background. Circles (female) or triangles (male) and horizontal lines represent the posterior means of the regression coefficient between plasma amino acids and HbA1c and 95% credible intervals](Figure1.jpeg)
+**Fig.** 1 Regression parameter estimates between plasma amino acids and HbA1c in subjects with European, Ghanaian and African Surinamese background. Circles (female) or triangles (male) and horizontal lines represent the posterior means of the regression coefficient between plasma amino acids and HbA1c and 95% credible intervals
 
-![**Fig.** 2 Regression parameter estimates between plasma ketone bodies and HbA1c in subjects with European, Ghanaian and African Surinamese background. Circles (female) or triangles (male) and horizontal lines represent the posterior means of the regression coefficient between plasma ketone bodies and HbA1c and 95% credible intervals](Figure2.jpeg)
+**Fig.** 2 Regression parameter estimates between plasma ketone bodies and HbA1c in subjects with European, Ghanaian and African Surinamese background. Circles (female) or triangles (male) and horizontal lines represent the posterior means of the regression coefficient between plasma ketone bodies and HbA1c and 95% credible intervals
 
-![**Fig.** 3 Regression parameter estimates between plasma HDL particle concentration and HbA1c in subjects with European, Ghanaian and African Surinamese background. Circles (female) or triangles (male) and horizontal lines represent the posterior means of the regression coefficient between plasma HDL particle concentration and HbA1c and 95% credible intervals](Figure3.jpeg)
+**Fig.** 3 Regression parameter estimates between plasma HDL particle concentration and HbA1c in subjects with European, Ghanaian and African Surinamese background. Circles (female) or triangles (male) and horizontal lines represent the posterior means of the regression coefficient between plasma HDL particle concentration and HbA1c and 95% credible intervals
 
-![**Fig.** 4 Regression parameter estimates between plasma VLDL particle concentration and HbA1c in subjects with European, Ghanaian and African Surinamese background. Circles (female) or triangles (male) and horizontal lines represent the posterior means of the regression coefficient between plasma VLDL particle concentration and HbA1c and 95% credible intervals](Figure4.jpeg)
+**Fig.** 4 Regression parameter estimates between plasma VLDL particle concentration and HbA1c in subjects with European, Ghanaian and African Surinamese background. Circles (female) or triangles (male) and horizontal lines represent the posterior means of the regression coefficient between plasma VLDL particle concentration and HbA1c and 95% credible intervals
 
-![**Fig.** 5 Regression parameter estimates between plasma IDL and LDL particle concentration and HbA1c in subjects with European, Ghanaian and African Surinamese background. Circles (female) or triangles (male) and horizontal lines represent the posterior means of the regression coefficient between plasma IDL and LDL particle concentration and HbA1c and 95% credible intervals](Figure5.jpeg)
+**Fig.** 5 Regression parameter estimates between plasma IDL and LDL particle concentration and HbA1c in subjects with European, Ghanaian and African Surinamese background. Circles (female) or triangles (male) and horizontal lines represent the posterior means of the regression coefficient between plasma IDL and LDL particle concentration and HbA1c and 95% credible intervals
 
 # Reference
